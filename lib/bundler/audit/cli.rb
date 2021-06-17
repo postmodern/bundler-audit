@@ -141,6 +141,7 @@ module Bundler
           end
 
           say "Skipping update", :yellow
+          exit 1
         end
 
         stats(path) unless options.quiet?
