@@ -201,6 +201,21 @@ You can provide a path to a config file using the `--config` flag:
 9. `git commit -a`
 10. `git push origin YOUR_FEATURE`
 
+## Developer Setup
+
+For contributors to bundler-audit, to setup your environment and run the test suite:
+
+```bash
+# Fork repo on GitHub, then ...
+git clone FORK_URL
+
+cd bundler-audit/
+
+bundle install
+rake setup
+rake spec
+```
+
 ## License
 
 Copyright (c) 2013-2021 Hal Brodigan (postmodern.mod3 at gmail.com)
